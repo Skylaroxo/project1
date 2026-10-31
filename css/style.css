@@ -119,3 +119,44 @@ h1, h2, h3{
     max-width: 520px;
     margin-bottom: 25px;
 }
+
+.hero-sidebar,
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+}
+ 
+.hero-sidebar{
+    padding: 25px;
+}
+ 
+.profile-photo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #CCCCCC;
+    object-fit: cover;
+}
+ 
+.hero-sidebar h3{
+    margin-top: 12px;
+    color: #2F4660;
+}
+ 
+.hero-sidebar p{
+    color: #666666;
+}
+ 
+.quick-links{
+    list-style: none;
+}
+ 
+.quick-links a{
+    color: #2F4660;
+}
+ 
+.quick-links a:hover{
+    color: #C9E0FF;
+}
+ 
