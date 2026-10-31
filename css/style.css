@@ -53,7 +53,7 @@ h1, h2, h3{
 
 .btn-primary{
     display: inline-block;
-    padding: 10px 24px;
+    padding: 10px 25px;
     border: 2px solid #8AA8EB;
     background-color: #FFFFFF;
     border-radius: 10px;
@@ -85,7 +85,7 @@ h1, h2, h3{
     justify-content: center; 
     align-items: flex-start;
     min-height: 360px;
-    padding: 32px 24px;
+    padding: 32px 25px;
     border-radius: 10px;
     color: #FFFFFF;
     background-color: #222222;                   
@@ -99,7 +99,7 @@ h1, h2, h3{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 32px 24px;
+    padding: 32px 25px;
 }
  
 .hero-banner h1 {
@@ -200,7 +200,7 @@ h1, h2, h3{
 
 .btn-card{
     display: inline-block;
-    padding: 10px 24px;
+    padding: 10px 25px;
     border: 2px solid #8AA8EB;
     border-radius: 20px;
     background-color: #FFFFFF;
@@ -216,10 +216,116 @@ h1, h2, h3{
     color: #FFFFFF;
 }
 
+.detail-layout{
+    padding: 25px 15px;
+}
+ 
+.detail-hero{
+    margin-bottom: 25px;
+}
 
+.eyebrow{
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #2F4660;
+    margin-bottom: 8px;
+}
 
+.detail-hero h1{
+    margin-bottom: 12px;
+}
+ 
+.lead-text{
+    max-width: 800px;
+    color: #2F4660;
+}
 
+.content-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
 
+.case-body,
+.meta-sidebar{
+    padding: 25px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+}
+ 
+.case-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+ 
+.case-body h2{
+    margin: 25px 0 8px;
+    color: #2F4660;
+}
+ 
+.case-body p{
+    margin-bottom: 15px;
+    color: #333333;
+}
+ 
+.stats-row{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+ 
+.stat{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #DDEBFF;
+    text-align: center;
+}
+ 
+.stat strong{
+    font-family: 'Sanchez', Georgia, serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #2F4660;
+}
+ 
+.case-body .stat p{
+    margin-bottom: 0;
+    color: #666666;
+}
+ 
+.meta-sidebar h3{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #2F4660;
+}
+ 
+.meta-sidebar p,
+.meta-sidebar li{
+    color: #666666;
+}
+
+.meta-sidebar p,
+.meta-sidebar ul{
+    margin-bottom: 15px;
+}
+ 
+.meta-sidebar p:last-child {
+    margin-bottom: 0;
+}
+ 
+.meta-sidebar ul{
+    list-style: none;
+}
 
 
 .site-footer{
