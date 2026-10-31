@@ -54,7 +54,7 @@ h1, h2, h3{
 .btn-primary{
     display: inline-block;
     padding: 10px 25px;
-    border: 2px solid #8AA8EB;
+    border: 2px solid #C9E0FF;
     background-color: #FFFFFF;
     border-radius: 10px;
     color: #2F4660;
@@ -88,7 +88,7 @@ h1, h2, h3{
     padding: 32px 25px;
     border-radius: 10px;
     color: #FFFFFF;
-    background-color: #222222;                   
+    background-color: #000000;                   
     background-image: url("../assets/images/hero.jpg");
     background-size: cover;
     background-position: right; 
@@ -201,7 +201,7 @@ h1, h2, h3{
 .btn-card{
     display: inline-block;
     padding: 10px 25px;
-    border: 2px solid #8AA8EB;
+    border: 2px solid #C9E0FF;
     border-radius: 20px;
     background-color: #FFFFFF;
     color: #2F4660;
@@ -238,7 +238,6 @@ h1, h2, h3{
 }
  
 .lead-text{
-    max-width: 800px;
     color: #2F4660;
 }
 
@@ -271,7 +270,6 @@ h1, h2, h3{
  
 .case-body p{
     margin-bottom: 15px;
-    color: #333333;
 }
  
 .stats-row{
@@ -284,7 +282,7 @@ h1, h2, h3{
 .stat{
     padding: 15px;
     border-radius: 10px;
-    background-color: #DDEBFF;
+    background-color: #C9E0FF;
     text-align: center;
 }
  
@@ -335,7 +333,7 @@ h1, h2, h3{
     gap: 8px;
     margin-top: 40px;
     padding: 25px 15px;
-    background-color: #EEEEEE;
+    background-color: #FFFFFF;
 }
  
 .footer-links{
@@ -351,3 +349,58 @@ h1, h2, h3{
 .footer-links a:hover{
     text-decoration: underline;
 }
+
+@media (min-width: 768px) {
+    h1 { font-size: 2.75rem; }
+    h2 { font-size: 1.75rem; }
+ 
+    .site-header {
+        padding: 16px 80px;
+    }
+ 
+    .logo {
+        height: 56px;
+    }
+ 
+    .container,
+    .detail-layout {
+        padding: 40px 80px;
+    }
+ 
+    .hero-grid {
+        grid-template-columns: 2fr 1fr;
+        gap: 24px;
+    }
+ 
+    .hero-banner {
+        padding: 48px;
+    }
+ 
+    .hero-banner h1 {
+        font-size: 2.25rem;
+    }
+ 
+    .btn-card {
+        align-self: flex-start;
+    }
+ 
+    .content-grid {
+        grid-template-columns: 3fr 1fr;
+        align-items: flex-start;
+    }
+ 
+    .case-img {
+        height: 450px;
+    }
+ 
+    .stats-row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+ 
+    .site-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 24px 80px;
+    }
+}
+ 
