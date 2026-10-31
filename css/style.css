@@ -22,6 +22,9 @@ h1, h2, h3{
 }
 
 .site-header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
