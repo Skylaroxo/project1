@@ -51,4 +51,71 @@ h1, h2, h3{
 }
 
 
+.btn-primary{
+    display: inline-block;
+    padding: 10px 24px;
+    border: 2px solid #8AA8EB;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #2F4660;
+    font-family: 'Sanchez', Georgia, serif;
+    text-decoration: none;
+    text-align: center;
+}
  
+.btn-primary:hover{
+    background-color: #2F4660;
+    color: #FFFFFF;
+}
+
+
+.container{
+    padding: 25px 15px;
+}
+ 
+.hero-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+ 
+.hero-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;
+    min-height: 360px;
+    padding: 32px 24px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #222222;                   
+    background-image: url("../assets/images/hero.jpg");
+    background-size: cover;
+    background-position: right; 
+}
+ 
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 24px;
+}
+ 
+.hero-banner h1 {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+ 
+.hero-subtitle {
+    font-family: 'Sanchez', Georgia, serif;
+    font-size: 1.15rem;
+    margin-bottom: 15px;
+}
+ 
+.subtitle {
+    max-width: 520px;
+    margin-bottom: 25px;
+}
