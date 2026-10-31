@@ -1,1 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #C9E0FF;
+}
+ 
+img{
+    max-width: 100%;
+}
+ 
+h1, h2, h3{
+    font-family: 'Sanchez', Georgia, serif;
+    font-weight: normal;
+    line-height: 1.25;
+}
 
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+ 
+.logo{
+    height: 45px;
+}
+ 
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+ 
+.nav-links a{
+    color: #000000;
+    text-decoration: none;
+}
+ 
+.nav-links a:hover{
+    color: #666666;
+}
+
+
+ 
